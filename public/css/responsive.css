@@ -1,0 +1,435 @@
+/* ****************
+Ratina
+************** */
+
+@media (max-width: 1920px){
+
+
+}
+
+@media (min-width: 1920px){
+
+
+}
+
+
+@media (max-width: 1680px){
+
+
+}
+@media (max-width: 1600px){
+
+}
+
+@media (max-width: 1440px){
+
+}
+
+
+
+/* ****************
+Desktop
+************** */
+
+@media (max-width: 1200px){
+    .carpost-area {
+        overflow-y: scroll;
+    }
+    .auto-refill a.cus-btn {
+        display: inline-block;
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+
+    .login-logo h2 {
+        font-size: 22px;
+    }
+
+
+}
+
+
+@media (max-width: 1024px){
+
+
+
+}
+@media (max-width: 992px) {
+
+
+}
+
+@media (max-width: 991px){
+    .closes i {
+        display: block;
+        padding: 5px;
+        color: #3151A1;
+        position: absolute;
+        top: 2px;
+        right: 2px;
+        background: #F3F6FC;
+        border-radius: 50%;
+        height: 25px;
+        width: 25px;
+        text-align: center;
+        z-index: 999;
+    }
+    .menu-area {
+        margin-left: -280px;
+        -webkit-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 999;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+    .main-contents {
+        margin-left: 0px;
+    }
+    .mob {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        position: absolute;
+        top: 10px;
+        left: 15px;
+        line-height: 1.5;
+        margin-right: 10px;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+
+    .header-area .menuwidth {
+        display: none;
+    }
+    .small-logo {
+        display: none;
+        opacity: 0;
+        -webkit-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+    }
+
+    .big-logo {
+        display: block;
+        opacity: 1;
+    }
+    span.hide-item {
+        display: block;
+        opacity: 1;
+    }
+
+    .menu-area ul ul.sub-menu li h4 {
+        padding: 12px 0 10px 30px;
+    }
+    ul.sub-menu li a {
+        padding: 5px 0 5px 30px;
+      }
+    .menu-area ul li:hover ul.sub-menu {
+        display: none;
+        -webkit-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+    }
+
+    .menu-area ul li ul.sub-menu.submenu {
+        display: block;
+        -webkit-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+    }
+    .menu-area ul ul.sub-menu {
+        background: #EEF0F5;
+        width: 100%;
+        height: 100%;
+        position: initial;
+        top: 0;
+        left: 80px;
+        margin-bottom: 10px;
+    }
+    .menu-area ul ul.sub-menu.big-sub {
+        position: inherit;
+        top: 0;
+        bottom: auto;
+        left: 0;
+    }
+    .menu-area ul ul.sub-menu li {
+        background: #EEF0F5;
+        -webkit-box-shadow: inherit;
+        box-shadow: inherit;
+      }
+    .drop-icon {
+        display: block;
+        position: absolute;
+        right: 10px;
+        font-size: 20px;
+        transform: rotate(0deg);
+        transition: all 0.3s ease;
+    }
+
+    .drop-icon.roted {
+        transform: rotate(180deg);
+        transition: all 0.3s ease;
+    }
+
+    .menu-area ul ul.sub-menu li:first-child a {
+        border-top: 1px solid #2A4385;
+    }
+    .title h2 {
+        font-size: 20px;
+        margin-left: 48px;
+    }
+    .title .breadcrumb {
+        margin-left: 48px;
+    }
+
+
+    .service-bar {
+        left: 25%;
+    }
+    .sale-bar {
+        right: 25%;
+    }
+    .btns-group {
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+    .monthly {
+        justify-content: flex-end;
+    }
+    .login {
+        padding: 0 10%;
+    }
+
+
+}
+
+
+
+
+@media (max-width: 768px){
+
+}
+
+/* ****************
+Tab
+************** */
+
+@media (max-width: 767px){
+    .overviews {
+        width: 24%;
+        margin-right: 1%;
+    }
+    .infomation {
+        margin-bottom: 25px;
+    }
+    .vin-input {
+        margin-bottom: 15px;
+    }
+
+    .action-link ul {
+        background: #EEF0F5;
+        border-radius: 8px;
+        padding: 4px;
+        display: inline-block;
+    }
+    .action-link ul li a {
+        width: auto;
+    }
+    .carpost-area {
+        width: 260px;
+        height: 100%;
+    }
+    .car-img img {
+        height: auto;
+        width: 100%;
+    }
+    .post-area {
+        padding: 10px 15px;
+    }
+    .car-location {
+        padding: 3px 15px;
+    }
+    .select-area {
+        padding: 0px 15px;
+    }
+    .setting-text {
+        margin-bottom: 15px;
+    }
+    .decode {
+        margin-top: 15px;
+    }
+    .rightbar {
+        margin-bottom: 15px;
+        padding-right: 0;
+        margin-right: 0;
+        border-right: none;
+    }
+    .login-area {
+        overflow: inherit;
+    }
+    .introduction h1 {
+        font-size: 30px;
+    }
+    .login-left {
+        padding: 0 30px;
+    }
+    .login {
+        padding: 0 5%;
+    }
+    .introduction p {
+        font-size: 14px;
+    }
+    .login-left {
+        display: none;
+    }
+
+}
+
+@media (max-width: 640px) {
+    .action-drop {
+        position: inherit;
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .blog-table .dataTables_wrapper .dataTables_filter {
+        margin-right: 0px!important;
+    }
+}
+
+@media (max-width: 575px) {
+    .nav-tabs .nav-link h3 {
+        font-size: 18px;
+    }
+    .nav-tabs .nav-link {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+    .nav-tabs .nav-link p.up {
+        font-size: 12px;
+    }
+    .nav-tabs .nav-link p.down {
+        font-size: 12px;
+    }
+    .apexcharts-canvas {
+        position: relative;
+        user-select: none;
+        text-align: center;
+        width: 100% !important;
+    }
+    .overviews {
+        width: 31%;
+        margin-right: 2%;
+    }
+    .pricing-table .dataTables_wrapper .dataTables_filter {
+        float: inherit;
+        text-align: center;
+        margin-right: 0;
+    }
+    .blog-table .dataTables_wrapper .dataTables_filter {
+        float: inherit;
+        text-align: center;
+        margin-right: 0;
+    }
+    .feedback-table .dataTables_wrapper .dataTables_filter {
+        margin-right: 0;
+    }
+    .addpage-table .dataTables_wrapper .dataTables_filter {
+        margin-right: 0;
+    }
+
+    .department-table .dataTables_wrapper .dataTables_filter {
+        margin-right: 0;
+    }
+    .automation-table .dataTables_wrapper .dataTables_filter {
+        margin-right: 0;
+    }
+    .catalog-table .dataTables_wrapper .dataTables_filter {
+        margin-right: 0;
+    }
+    .support-table .dataTables_wrapper .dataTables_filter {
+        margin-right: 0;
+    }
+    .dropdown-menu {
+        top: 100%;
+        left: auto;
+    }
+    .vehicle-area {
+        display: block;
+    }
+    .search-box {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .action-link {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .export {
+        float: left;
+    }
+    .leads-tabs .nav-tabs .nav-link {
+        margin-bottom: 10px;
+
+    }
+    .daterangepicker .drp-buttons .btn {
+        margin-bottom: 5px;
+    }
+    table.dataTable tbody td a.cus-btn {
+        color: #fff !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+    .monthly {
+        margin-bottom: 15px;
+    }
+    .refill-btn {
+        text-align: left;
+    }
+    .introduction h1 {
+        font-size: 22px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .overviews {
+        width: 48%;
+        margin-right: 2%;
+    }
+
+}
+
+
+
+/* ****************
+Mobile
+************** */
+@media (max-width: 375px) {
+
+
+
+
+}
+
+@media (max-width: 360px) {
+
+
+
+}
+
+@media (max-width: 320px) {
+
+
+
+}
